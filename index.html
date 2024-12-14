@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flac to Mp3</title>
+    <!--- stylesheet css --->
+    <style>
+        *{
+        overflow: hidden;
+    }
+
+    /* Body */
+
+    body {
+        background-color: #000000;
+        color: #ffffff;
+        display: grid;
+        min-height: 100vh;
+        place-items: center;
+    }
+
+    /* Center Content */
+
+    .content{
+        place-items: center;
+    }
+    </style>
+</head>
+<body>
+<script src="FlacConverter.js"></script>
+<form action="/convert" method="post" enctype="multipart/form-data">
+<input type="file" name="flacFile" class="content" accept=".flac" required>
+<button type="sumbit">Convert</button>
+</form>
+</body>
+</html>
