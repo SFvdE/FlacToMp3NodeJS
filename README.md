@@ -1,7 +1,5 @@
 # FlacToMp3NodeJS
+ 
+Flac to Mp3 converter site used for personal use
 
-Barebones Flac to Mp3 converter site
-
-Index.HTML, .JS and Node.JS server script.
-
-offline
+long dead
